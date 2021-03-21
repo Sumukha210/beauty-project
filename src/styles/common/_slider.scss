@@ -1,0 +1,117 @@
+.slider {
+  margin-top: 4rem !important;
+
+  img {
+    height: 220px;
+  }
+
+  //main title styles
+  &__title {
+    text-transform: capitalize;
+    margin-bottom: 1.3rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding-left: 9px;
+
+    @include breakpoint-down(sm) {
+      font-size: 1.3rem;
+    }
+  }
+
+  //main sub title styles
+  &__subTitle {
+    color: #6c757d !important;
+    text-transform: capitalize;
+    padding-left: 9px;
+    margin: 0px !important;
+  }
+
+  .slick-next {
+    @include breakpoint-down(sm) {
+      right: -12px !important;
+    }
+  }
+
+  .slick-prev {
+    @include breakpoint-down(sm) {
+      left: -12px !important;
+    }
+  }
+
+  //hide prev arrow
+  &.hidePrev {
+    .slick-prev {
+      display: none !important;
+    }
+  }
+
+  //arrow position
+  .slick-prev,
+  .slick-next {
+    top: 40%;
+  }
+
+  //view all path
+  .viewAllPath {
+    text-transform: capitalize;
+    text-decoration: underline;
+  }
+
+  &.arrowPosition {
+    .slick-prev,
+    .slick-next {
+      top: 30%;
+    }
+  }
+
+  //card styles
+  .card {
+    margin: 0 0.5rem;
+    border: none !important;
+    outline: none !important;
+
+    &-img {
+      height: 314px;
+    }
+
+    .imgContainer {
+      position: relative;
+    }
+
+    &-title {
+      text-transform: capitalize;
+      font-weight: 700 !important;
+      color: black;
+      @include breakpoint-down(sm) {
+        font-size: 1.1rem;
+      }
+    }
+
+    &-text {
+      @include breakpoint-down(sm) {
+        font-size: 0.95rem;
+      }
+    }
+
+    //add user icon
+    .addUser {
+      display: none;
+      position: absolute;
+      bottom: 5%;
+      right: 5%;
+      background-color: red;
+      padding: 0.5em;
+      border-radius: 50%;
+      cursor: pointer;
+
+      svg {
+        font-size: 1.5rem;
+        color: white;
+      }
+    }
+
+    &-body {
+      padding: 1rem 0rem !important;
+    }
+  }
+}

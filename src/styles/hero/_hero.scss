@@ -1,0 +1,28 @@
+.hero {
+  margin-top: 5rem;
+  &__bgImg {
+    height: 58vh;
+    width: 100vw;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .heroContent {
+    background-color: #f2f2f2;
+    width: 100%;
+  }
+
+  .singleCard {
+    background-color: transparent !important;
+    border: none !important;
+    outline: none !important ;
+
+    .card-header {
+      background-color: transparent !important;
+    }
+
+    svg {
+      font-size: 1.8rem;
+    }
+  }
+}

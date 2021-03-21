@@ -1,0 +1,44 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+
+  background-color: $bg-dark !important;
+  &-brand {
+    color: white !important;
+    text-transform: capitalize;
+    font-weight: normal !important;
+    h5 {
+      font-weight: normal !important;
+      font-size: 2rem;
+      margin: 0;
+    }
+    span {
+      font-size: 0.9rem;
+    }
+
+    @include breakpoint-down(sm) {
+      h5 {
+        font-size: 1.3rem;
+      }
+    }
+  }
+
+  //form control input text box
+  .form-control {
+    border: none !important;
+    outline: none !important;
+    @include breakpoint-up(lg) {
+      width: 27vw;
+    }
+  }
+
+  //input group styles
+  .input-group {
+    &-text {
+      background-color: white;
+      border: none !important;
+    }
+  }
+}

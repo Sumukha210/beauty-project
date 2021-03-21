@@ -1,0 +1,14 @@
+.artistsToFollow {
+  background-color: #eeeeee;
+  .card {
+    background-color: transparent !important;
+
+    &-img {
+      border-radius: 19px !important;
+    }
+
+    .addUser {
+      display: block;
+    }
+  }
+}
