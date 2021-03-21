@@ -20,7 +20,7 @@ export default HandiCraft;
 
 const paintingsOptions = [
   {
-    img: "/images/hero-bg.jpg",
+    img: "/images/bg-(1).jpg",
     cardTitle: "paintings",
     subTitle: [
       "artist name",
@@ -86,7 +86,7 @@ const paintingsOptions = [
     ],
   },
   {
-    img: "/images/hero-bg.jpg",
+    img: "/images/bg-(1).jpg",
     cardTitle: "paintings",
     subTitle: [
       "artist name",
@@ -97,7 +97,7 @@ const paintingsOptions = [
     ],
   },
   {
-    img: "/images/hero-bg.jpg",
+    img: "/images/bg-(1).jpg",
     cardTitle: "paintings",
     subTitle: [
       "artist name",
@@ -108,7 +108,7 @@ const paintingsOptions = [
     ],
   },
   {
-    img: "/images/hero-bg.jpg",
+    img: "/images/bg-(1).jpg",
     cardTitle: "paintings",
     subTitle: [
       "artist name",
@@ -119,7 +119,7 @@ const paintingsOptions = [
     ],
   },
   {
-    img: "/images/hero-bg.jpg",
+    img: "/images/bg-(1).jpg",
     cardTitle: "paintings",
     subTitle: [
       "artist name",
@@ -130,7 +130,7 @@ const paintingsOptions = [
     ],
   },
   {
-    img: "/images/hero-bg.jpg",
+    img: "/images/bg-(1).jpg",
     cardTitle: "paintings",
     subTitle: [
       "artist name",

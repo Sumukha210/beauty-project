@@ -21,7 +21,7 @@ export default ArtistsToFollow;
 
 const categoryOptions = [
   {
-    img: "/images/hero-bg.jpg",
+    img: "/images/bg-(1).jpg",
     cardTitle: "Full Name",
     subTitle: ["artist,b. 1980", "20 posts,27 works for sale"],
   },
@@ -51,27 +51,27 @@ const categoryOptions = [
     subTitle: ["artist,b. 1980", "20 posts,27 works for sale"],
   },
   {
-    img: "/images/hero-bg.jpg",
+    img: "/images/bg-(1).jpg",
     cardTitle: "Full Name",
     subTitle: ["artist,b. 1980", "20 posts,27 works for sale"],
   },
   {
-    img: "/images/hero-bg.jpg",
+    img: "/images/bg-(1).jpg",
     cardTitle: "Full Name",
     subTitle: ["artist,b. 1980", "20 posts,27 works for sale"],
   },
   {
-    img: "/images/hero-bg.jpg",
+    img: "/images/bg-(1).jpg",
     cardTitle: "Full Name",
     subTitle: ["artist,b. 1980", "20 posts,27 works for sale"],
   },
   {
-    img: "/images/hero-bg.jpg",
+    img: "/images/bg-(1).jpg",
     cardTitle: "Full Name",
     subTitle: ["artist,b. 1980", "20 posts,27 works for sale"],
   },
   {
-    img: "/images/hero-bg.jpg",
+    img: "/images/bg-(1).jpg",
     cardTitle: "Full Name",
     subTitle: ["artist,b. 1980", "20 posts,27 works for sale"],
   },

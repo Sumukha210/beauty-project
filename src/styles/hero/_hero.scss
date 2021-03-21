@@ -1,10 +1,13 @@
 .hero {
   margin-top: 5rem;
-  &__bgImg {
-    height: 58vh;
-    width: 100vw;
-    object-fit: cover;
-    object-position: center;
+
+  .hero__slider {
+    img {
+      height: 58vh;
+      width: 100vw;
+      object-fit: cover;
+      object-position: center;
+    }
   }
 
   .heroContent {

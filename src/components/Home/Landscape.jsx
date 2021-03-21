@@ -20,7 +20,7 @@ export default Landscape;
 
 const paintingsOptions = [
   {
-    img: "/images/hero-bg.jpg",
+    img: "/images/bg-(1).jpg",
     cardTitle: "paintings",
     subTitle: [
       "art title,2020",
@@ -92,7 +92,7 @@ const paintingsOptions = [
     ],
   },
   {
-    img: "/images/hero-bg.jpg",
+    img: "/images/bg-(1).jpg",
     cardTitle: "paintings",
     subTitle: [
       "art title,2020",
@@ -104,7 +104,7 @@ const paintingsOptions = [
     ],
   },
   {
-    img: "/images/hero-bg.jpg",
+    img: "/images/bg-(1).jpg",
     cardTitle: "paintings",
     subTitle: [
       "art title,2020",
@@ -116,7 +116,7 @@ const paintingsOptions = [
     ],
   },
   {
-    img: "/images/hero-bg.jpg",
+    img: "/images/bg-(1).jpg",
     cardTitle: "paintings",
     subTitle: [
       "art title,2020",
@@ -128,7 +128,7 @@ const paintingsOptions = [
     ],
   },
   {
-    img: "/images/hero-bg.jpg",
+    img: "/images/bg-(1).jpg",
     cardTitle: "paintings",
     subTitle: [
       "art title,2020",
@@ -140,7 +140,7 @@ const paintingsOptions = [
     ],
   },
   {
-    img: "/images/hero-bg.jpg",
+    img: "/images/bg-(1).jpg",
     cardTitle: "paintings",
     subTitle: [
       "art title,2020",
